@@ -1,0 +1,32 @@
+{
+  "name": "Ethereum #1",
+  "description": "A vibrant digital painting depicting and showing ethereum currency.",
+  "image": "https://res.cloudinary.com/joycrown/image/upload/v1722903397/clfnpsatupa1edx9co24.jpg",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Space"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Abstract"
+    },
+    {
+      "trait_type": "Color Palette",
+      "value": "Neon"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Sarah Stardust"
+    },
+    {
+      "trait_type": "Year",
+      "value": 2024
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare",
+      "max_value": 100
+    }
+  ]
+}
