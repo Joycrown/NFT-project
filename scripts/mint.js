@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const hre = require("hardhat");
 
-const { CONTRACT_ADDRESS} = process.env;
+const { CONTRACT_ADDRESS, RECIPIENT_ADDRESS} = process.env;
 
 async function main() {
   const CryptoAvatars = await hre.ethers.getContractFactory("CryptoAvatars");
@@ -13,7 +13,7 @@ async function main() {
 
   console.log("Minting NFT...");
 
-  const recipientAddress = "0xd217d1527Ce81EeA0b27C9C4F877a03a27fA3a0F";
+  const recipientAddress = RECIPIENT_ADDRESS;
 
   // Read local JSON file
   const metadata = JSON.parse(fs.readFileSync(path.join(__dirname, '../metadata/ethereum.json'), 'utf8'));
